@@ -1,16 +1,55 @@
-# React + Vite
+# 🏏 IPL Dashboard 2025 – React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive **IPL Dashboard Web App** built using **React, Vite, and TailwindCSS**.  
+This project displays the **IPL 2025 Points Table**, **Team Details**, **Players List**, and more — designed to look clean, fast, and professional.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### 📌 IPL Points Table
+- Live-style table layout  
+- Properly aligned team logos  
+- Points, wins, losses, NRR  
+- Highlighted leaderboard  
+- Clean UI with hover effects  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📌 Players Page
+- Players grouped by team  
+- Player photos, roles, & names  
+- Wikipedia link on player click  
+- Responsive grid layout  
 
-## Expanding the ESLint configuration
+### 📌 Team Pages
+- Team squads  
+- Team logos  
+- Team stats (optional)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📌 Fully Responsive
+Works on:
+- Mobile 📱  
+- Tablet 📟  
+- Laptop 💻  
+
+### 📌 Smooth Animations
+- Fade transitions  
+- Hover effects  
+- Modern UI feel  
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| **React.js** | UI components |
+| **Vite** | Fast dev environment |
+| **TailwindCSS** | Styling |
+| **React Router** | Navigation |
+| **JavaScript (ES6+)** | Logic |
+| **Git / GitHub** | Version control |
+
+---
+
+## 📁 Project Structure
+
