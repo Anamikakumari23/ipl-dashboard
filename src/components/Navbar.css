@@ -1,0 +1,82 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 25px;
+  background: var(--nav-bg);
+  color: var(--text-color);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.35);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ipl-logo {
+  width: 45px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 17px;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+}
+
+.theme-btn {
+  padding: 8px 14px;
+  cursor: pointer;
+  background: var(--button-bg);
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .ipl-logo {
+    width: 35px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+  .theme-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
+/* IPL LOGO LEFT CORNER */
+.ipl-logo-corner {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+/* IPL LOGO LEFT CORNER */
+.ipl-logo-corner {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}

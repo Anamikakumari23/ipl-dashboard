@@ -1,0 +1,152 @@
+.table-wrapper {
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  color: var(--accent);
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.search-input {
+  width: 260px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.sorting button {
+  padding: 8px 14px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background: var(--button-bg);
+  border-radius: 4px;
+}
+
+.points-table {
+  width: 95%;
+  max-width: 1000px;
+  margin: auto;
+  background: var(--card-bg);
+  border-radius: 10px;
+  overflow: hidden;
+  border-collapse: collapse;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.35);
+}
+
+.points-table th {
+  background: var(--accent);
+  padding: 12px;
+  color: white;
+}
+
+.points-table td {
+  padding: 12px;
+  border-bottom: 1px solid #333;
+}
+
+.team-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team-logo {
+  width: 36px;
+  height: 36px;
+}
+
+.clickable-row {
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.clickable-row:hover {
+  background: rgba(229, 9, 20, 0.2);
+  transform: scale(1.01);
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+  .search-input {
+    width: 200px;
+  }
+
+  .team-logo {
+    width: 30px;
+  }
+
+  .points-table td,
+  .points-table th {
+    padding: 8px;
+    font-size: 12px;
+  }
+}
+.team-col {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.points-title {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--accent);
+  font-size: 30px;
+}
+
+.table-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.points-table {
+  width: 95%;
+  max-width: 900px;
+  border-collapse: collapse;
+  background: var(--card-bg);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.points-table th,
+.points-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  color: var(--text-color);
+}
+
+.points-table th {
+  background: rgba(255, 255, 255, 0.05);
+  font-weight: bold;
+}
+
+.team-col {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 2px;
+}
+
+.points {
+  font-weight: bold;
+  color: #4da3ff;
+}
+
+.points-table tr:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+

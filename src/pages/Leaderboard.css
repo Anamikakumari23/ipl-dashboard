@@ -1,0 +1,25 @@
+.lb-title {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 30px;
+  color: var(--accent);
+}
+
+.lb-section {
+  width: 90%;
+  max-width: 600px;
+  margin: 25px auto;
+}
+
+.lb-section h2 {
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+.lb-card {
+  padding: 12px;
+  background: var(--card-bg);
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-left: 4px solid var(--accent);
+}

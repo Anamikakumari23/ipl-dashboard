@@ -1,0 +1,117 @@
+.players-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  color: var(--accent);
+}
+
+.players-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 25px;
+}
+
+.team-card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.team-card h2 {
+  margin-top: 10px;
+  color: var(--text-color);
+}
+
+.team-logo {
+  width: 60px;
+}
+
+.player-list {
+  margin-top: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.player-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid #333;
+}
+
+/* 🎯 NEW: Clickable Player Name */
+.player-link {
+  color: #4da3ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.player-link:hover {
+  color: #1e8bff;
+  text-decoration: underline;
+}
+.players-title {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--accent);
+  font-size: 30px;
+}
+
+.players-container {
+  padding: 20px;
+}
+
+.team-card {
+  background: var(--card-bg);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+.team-logo {
+  width: 70px;
+  display: block;
+  margin: auto;
+}
+
+.team-card h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.player-card {
+  text-align: center;
+}
+
+.player-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent);
+}
+
+.player-name {
+  display: block;
+  margin-top: 8px;
+  font-weight: 600;
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+.player-name:hover {
+  text-decoration: underline;
+}
+
+.player-role {
+  color: #ccc;
+  font-size: 13px;
+}
