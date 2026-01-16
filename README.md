@@ -52,4 +52,18 @@ Works on:
 ---
 
 ## 📁 Project Structure
+📦 src
+┣ 📂 components
+┃ ┣ Navbar.jsx
+┃ ┗ ...
+┣ 📂 pages
+┃ ┣ Home.jsx
+┃ ┣ PointsTablePage.jsx
+┃ ┣ Players.jsx
+┃ ┗ TeamPage.jsx
+┣ 📂 data
+┃ ┣ points.js
+┃ ┗ players.js
+┣ App.jsx
+┗ main.jsx
 
